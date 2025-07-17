@@ -2,6 +2,7 @@
 
 This Project is an AI classification model on celestial objects in space. It was designed to run on an nvidia orin nano.
 
+[Uses Spacenet dataset from kaggle](https://www.kaggle.com/datasets/razaimam45/spacenet-an-optimally-distributed-astronomy-data)
 ![Imaage of the annotated product of a classificagtion of a galaxy that was downloaded from the internet](![annotated_gal](https://github.com/user-attachments/assets/527d3ab4-caf0-4c1a-8c85-53328935b242))
 
 ## The Algorithm
