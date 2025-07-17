@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}Upload Image{% endblock %}
+
+{% block content %}
+<div class="card mx-auto shadow" style="max-width: 500px; height: 300px">
+  <div class="card-body">
+    <h2 class="text-center mb-4">Upload an Image</h2>
+    <form method="post" enctype="multipart/form-data" id="uploadForm">
+      <div class="mb-3">
+        <label for="file" class="form-label">Select Image:</label>
+      </div>
+        <input class="form-control" type="file" name="file" id="file" required>
+      </br>
+      </br>
+      <button class="btn btn-success w-100" id="uploadBtn" type="submit">
+        <span id="btnText">Upload</span>
+        <i class="fa fa-spinner fa-spin" style="display:none" id="btnSpinner"></i>
+      </button>
+    </form>
+  </div>
+</div>
+
+<script>
+  document.getElementById('uploadForm').addEventListener('submit', function () {
+    var btn = document.getElementById('uploadBtn');
+    document.getElementById('btnText').style.display = 'none';
+    document.getElementById('btnSpinner').style.display = 'inline-block';
+    btn.disabled = true;
+  });
+</script>
+{% endblock %}

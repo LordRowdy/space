@@ -1,0 +1,14 @@
+body {
+  background-color: #f4f6f9;
+  font-family: Arial, sans-serif;
+}
+.card {
+  border-radius: 12px;
+}
+.btn-success {
+  background-color: #359d7c;
+  border: none;
+}
+.btn-success:hover {
+  background-color: #267a5f;
+}
