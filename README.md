@@ -3,7 +3,7 @@
 This Project is an AI classification model on celestial objects in space. It was designed to run on an nvidia orin nano.
 
 [Uses Spacenet dataset from kaggle](https://www.kaggle.com/datasets/razaimam45/spacenet-an-optimally-distributed-astronomy-data)
-![Imaage of the annotated product of a classificagtion of a galaxy that was downloaded from the internet](![annotated_gal](/home/nvidia/final/static/images/annotated_092719_mt_blackhole_feat.jpg))
+![Imaage of the annotated product of a classificagtion of a galaxy that was downloaded from the internet](![annotated_gal](annotated_092719_mt_blackhole_feat.jpg))
 
 ## The Algorithm
 
